@@ -230,13 +230,16 @@ background: rgba(233, 68, 68, 0.05);
 .fifth-section{
     position: relative;
     top: 2600px;
-    text-align: center;
+   
     max-width: 1200px;
 
 }
+.fifth-section-heading{
+    text-align:center;
+}
 .fifth-section h6{
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
+    
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
@@ -245,18 +248,128 @@ background: rgba(233, 68, 68, 0.05);
     position: relative;
     top: 0px;
     display: inline-block;
+    margin-bottom: 24px;
 }
 
 .vanue-description{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 100px;
-    left: 735px;
-    width: 579px;
-height: 389px;
+    position:absolute;
+  bottom: 50px;
+    left: 535px;
+    padding: 50px;
+    width: 480px;
+height: 300px;
 border-radius: 16px;
 border: 2px solid #FFF;
-background: rgba(210, 33, 33, 0.8);
+background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
+font-family: Mulish; 
+}
+.vanue-mirrored-img{
+    transform: scaleX(-1);
+}
+.vanue-mirrored-description{
+    position:absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: 50px;
+    width: 480px;
+height: 300px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+font-family: Mulish; 
+
+}
+.booking-details{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+gap: 12px;
+}
+.fifth-section button{
+    padding: 15px 24px;
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.more-button{
+    position: absolute;
+    top: 550px;
+    left: 500px;
+   
 }
 /* fifth section ends here */
+
+
+/* sixth section starts here */
+.sixth-section{
+position: absolute;
+top: 5550px;
+display: flex;
+}
+.sixth-section-description{
+    width: 550px;
+height: 450px;
+}
+
+.sixth-section h6{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+}
+.sixth-section li{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 10px;
+margin-left: 0px;
+}
+.sixth-section button{
+    padding: 15px 42px;
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+margin-top: 24px;
+}
+.sixth-section-container
+{
+   background-image: url(../Images/Group\ 40089.png);
+    width: 610px;
+height: 424px;
+margin-left: 12px;
+}
+
+.sixth-section-container h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 176px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+
+/* sixth section ends here */
+
+/* seventh section starts here */
+
+
+/* seventh section ends here */
